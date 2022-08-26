@@ -1,4 +1,0 @@
--Para realizar a compilação do programa do LAB2, você pode usar IDE's como repl.it, codeblock ou DevC++ para compilar na linguagem C.
--Para executar o programa do LAB2-1, você precisa ter um um arquivo chamado de "arquivo1.txt" na mesma pasta aonde está o código para realizar as operações e neste arquivo precisa possuir algo escrito, já que se não possuisse, o código não teria nenhuma finalidade.
--Para executar o programa do LAB2-2, você precisa ter algum arquivo ".txt" de qualquer nome e dado para realizar a operação de cópia de dados de um arquivo para um novo arquivo.
--Para confirmar que o programa está funcionando realmente, o execício 1 do LAB2, o programa deverá imprimir os contéudos contido no "arquivo1.txt" e já no exercício 2 do LAB2, o programa deverá passar os dados do arquivo escolhido para um novo arquivo.

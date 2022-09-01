@@ -1,5 +1,5 @@
 1- Para compilar o código do LAB03, faça o donwload do DevC++ 5.11 ou use um compilador online como Repl.it ou GDB ONLINE.
 2- Para executar o que se pede no exercício 1, será necessário alterar o número de N para um valor grande e já no segundo exercício será preciso alterar sys.stdout 
 para sys.stderr.
-3- Para comprovar os resultados o primeiro exercício devemos identificar se as mensagens sempre ficam ordenados pelo valor de i, no qual não deve ficar ordenados e
+3- Para comprovar os resultados o primeiro exercício devemos identificar se as mensagens sempre ficam ordenados pelo valor de i, no qual não devem ficar ordenados e
 já no segundo exercício devemos identificar se houve alguma modificação se mudarmos o print de sys.stdout para sys.stderr, no caso não haverá nenhuma modificação.

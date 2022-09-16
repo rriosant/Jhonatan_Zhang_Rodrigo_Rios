@@ -1,3 +1,5 @@
+//Referências do pseudocodigo do livro "Sistemas Operacionais Modernos 4-edicao", Tanenbaum
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

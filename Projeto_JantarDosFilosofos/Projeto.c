@@ -1,4 +1,4 @@
-//Referências do pseudocodigo do livro "Sistemas Operacionais Modernos 4-edicao", Tanenbaum
+//Referências do pseudocodigo da figura 2-47 do livro "Sistemas Operacionais Modernos 4-edicao", Tanenbaum
 
 #include <stdio.h>
 #include <stdlib.h>

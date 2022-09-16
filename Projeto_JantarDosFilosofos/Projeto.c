@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <pthread.h>
-#include <ctype.h>
 #include <semaphore.h>
 
 // definindo variaveis 

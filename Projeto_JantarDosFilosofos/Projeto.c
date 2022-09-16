@@ -1,3 +1,6 @@
+// Referências do pseudocodigo da figura 2-47, "Sistemas Operacionais Modernos (4edicao)", Tanenbaum
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

@@ -60,9 +60,9 @@ int main(){
 void *filosofo(void *j){
 
 	while(1){  
-      sleep(random() % 1 + 2);    //Tempo para o filosofo pensar (aleatorio)
+      sleep(random() % 1 + 3);    //Tempo para o filosofo pensar (aleatorio)
     	pegar_Garfo(*(int*)j);      //Pega os dois garfos ou é bloqueado
-    	sleep(random() % 1 + 1);    //Tempo para o filosofo comer (aleatorio)
+    	sleep(random() % 1 + 2);    //Tempo para o filosofo comer (aleatorio)
     	devolver_Garfo(*(int*)j);    //Coloca os dois garfos na mesa
 	}
 }

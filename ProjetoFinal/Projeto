@@ -1,1 +1,3 @@
-
+1- Para compilar o código do Projeto do Jantar dos Filosofos, faça o donwload do DevC++ 5.11 ou use um compilador online como Repl.it ou GDB ONLINE.
+2- Para executar o código apenas de run.
+3- Para comprovar se está funcionando, observe na saída dos prints se todos os filosofos já comeram pelomenos uma vezes.

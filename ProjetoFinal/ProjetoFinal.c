@@ -5,14 +5,11 @@
 #include <signal.h>
 #include <sched.h>
 #include <stdio.h>
-#include <unistd.h>
 #include <pthread.h>
-
 
 struct c {
  int saldo;
 };
-
 
 typedef struct c conta;
 conta from, to;
@@ -25,7 +22,7 @@ int zerou=0;
 void transferencia( void *arg){
 
   int codigo=arg;
-  int valor=20;        //valor que será retirada e adicionado em cada conta
+  int valor=2;        //valor que será retirada e adicionado em cada conta
 
   
   // Se o valor for menor ou igual ao saldo de FROM
@@ -65,11 +62,9 @@ void transferencia( void *arg){
   if (from.saldo==0){
     zerou=1;
   }
-  
   printf("Transferência %d concluída com sucesso!\nSaldo de c1: $%d\nSaldo de c2: $%d\n\n", codigo + 1, from.saldo, to.saldo);
   
 }
-
 
 int main(){
   
@@ -88,18 +83,15 @@ int main(){
   
    pthread_t thread[qtd_transferencias];  //threads
    
-
 //Todas as contas começam com saldo 100
   
   from.saldo = 100;  
   to.saldo = 100;
 
-
 //Cria as threads
   for (int i = 0; i < qtd_transferencias; i++) {
   pthread_create(&thread[i],NULL,transferencia,(void*)i);
   }
-
 //Espera as threads para finalizar
   for(int i = 0; i < qtd_transferencias; i++){
   pthread_join(thread[i], NULL);
